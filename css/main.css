@@ -1,0 +1,367 @@
+*                       {   margin:               0px;
+					  	    padding:              0px;
+						    font-family:          verdana;
+						    font-size:            12px;
+						    color:                black;
+					        vertical-align:       middle;}
+
+a, li                   {   text-decoration:      none;
+	                        list-style:           none;
+		                    padding: 0px;} 
+
+form                    {   display:              inline;}
+
+input                   {   height:               25px;
+				     		width:                130px;
+	                        border-radius:        5px;
+	                    }
+
+input[placeholder]      {   text-align:           center;}
+
+
+/*
+ @@@@@@@@@   @@@@@@@@@@   @@@@@@@@     @@@       @@@ 
+ @@@@@@@@@  @@@@@@@@@@@@  @@@@@@@@@@   @@@@     @@@@
+ @@@        @@@      @@@  @@@     @@@  @@@@@   @@@@@
+ @@@        @@@      @@@  @@@     @@@  @@@@@@ @@@@@@
+ @@@@@@@@   @@@      @@@  @@@     @@@  @@@  @@@  @@@
+ @@@@@@@@   @@@      @@@  @@@@@@@@@@   @@@   @   @@@
+ @@@        @@@      @@@  @@@@@@@      @@@       @@@
+ @@@        @@@      @@@  @@@   @@@    @@@       @@@
+ @@@        @@@      @@@  @@@    @@@   @@@       @@@
+ @@@        @@@      @@@  @@@     @@@  @@@       @@@
+ @@@        @@@@@@@@@@@@  @@@     @@@  @@@       @@@
+ @@@         @@@@@@@@@@   @@@     @@@  @@@       @@@
+*/
+
+#forms                  {   width:                100%;						
+						    text-align:           center;
+						    margin:               10 auto;
+						    padding-top:          20px;
+						    background-color:     #79CC3F;
+						    border-bottom:        3px solid #005607;}
+
+#reg_user_datas         {min-height: 40px;}
+						
+
+#reg_passwords          {min-height: 40px;}
+
+.error                  {   background-color:     #F55A5C;
+					    	color:                #FFFFFF;}
+
+.errorBox               {   border:               2px solid #FFFFFF;
+		                    width:                260px;
+		                    margin:               5px auto;
+							border-radius:        5px;
+						    display:              none;
+						    padding:              5px;
+						    z-index:              50;}
+
+.disabled               {   border-style:         inset;}
+					
+#homeIcon               {   position:             fixed;
+						    margin-left:          5px;}
+
+#searchIcon             {   position:             fixed;
+                            left:                 50px;}
+
+#profileIcon            {   position:             fixed;
+                            right:                195px;
+	                        border-radius:        5px;}
+
+#chatIcon               {   position:             fixed;
+                            right:                150px;}
+
+#friendsIcon            {   position:             fixed;
+                            right:                105px;}
+
+#configIcon             {   position:             fixed;
+                            right:                50px;}
+
+#logoutIcon             {   position:             fixed;
+                            right:                5px;}
+
+.clickIcon              {   cursor:               pointer;
+					     	height:               35px;
+					        width:                35px;}
+
+
+.clickIcon:hover        {   filter:               brightness(70%);
+							-webkit-filter:       brightness(70%);
+							-moz-filter:          brightness(70%);
+							-o-filter:            brightness(70%);
+							-ms-filter:           brightness(70%);}
+
+.clickString            {   cursor:               pointer;}
+
+.clickString:hover      {   cursor:               pointer;
+		                    background-color:     rgba(0,0,0,.2);
+		                    color:                white;}
+
+.pointer                {   height:               0px;
+							width:                0px;
+							border:               10px solid;
+							border-color:         transparent transparent #264629 transparent;
+							position:             absolute;  
+							top:                  28px;
+							left:                 10px;
+							display:              none;}
+
+.subPointer             {   height:               0px;
+							width:                0px;
+							border:               5px solid;
+							border-color:         transparent transparent #79CC3F transparent;
+							position:             absolute;  
+							top:                  38px;
+							left:                 15px;
+							display:              none;}
+
+#header                 {   position:             fixed;
+							background-color:     #79CC3F;
+							padding:              5px 0px;
+
+							border-bottom:        3px solid #264629;
+							width:                100%;
+							height:               40px;
+		                    -webkit-box-shadow:   0px 15px 20px -10px rgba(0,0,0,0.50);
+	                        -moz-box-shadow:      0px 15px 20px -10px rgba(0,0,0,0.50);
+	                        box-shadow:           0px 15px 20px -10px rgba(0,0,0,0.50);}
+   
+#searchBox              {	border-color:         white;
+							outline:              none;
+							border-radius:        15px 0px 0px 15px;
+							background-color:     white;
+							border-right:         none;
+							height:               24px;
+							width:                80%;
+							max-width:            500px;
+							margin: 0 auto;
+							vertical-align:       middle;}
+
+#searchBoxSubmit        {   border-color:         white;
+		                    border-style:         inset;
+							border-left:          none;
+							height:               28px;
+							width:                40px;
+							border-radius:        0px 15px 15px 0px;
+							margin-left:          -9px;
+							background-color:     white;
+						    background-image:     url("../img/icons/search.png");
+						    background-size:      contain;
+							background-repeat:    no-repeat;
+							background-position:  center;}
+
+#searchBoxSubmit:hover  {   cursor:               pointer;
+		                    filter:               brightness(95%);
+							-webkit-filter:       brightness(95%);
+							-moz-filter:          brightness(95%);
+							-o-filter:            brightness(95%);
+							-ms-filter:           brightness(95%);}
+
+.headerItem             {   display:              inline-block;}
+
+.menu                   {   font-weight:          bold;}
+		                
+
+.subMenu                {   display:              none;
+		                    position:             fixed;
+		                    top:                  53px;
+		                    padding:              10px 0px;
+		                    background-color:     #79CC3F;
+			                border:               3px solid #264629;
+			                border-top:           none;
+		                    -webkit-box-shadow:   0px 15px 20px -10px rgba(0,0,0,0.50);
+	                        -moz-box-shadow:      0px 15px 20px -10px rgba(0,0,0,0.50);
+	                        box-shadow:           0px 15px 20px -10px rgba(0,0,0,0.50);}
+
+#subSearch              {   left:                 -3px;
+							width:                100%;
+							text-align:           center;}
+
+#subConfig              {   right:                -3px;
+							width:                200px;}
+
+.subMenuItem            {   padding:              5px;}
+
+
+
+#signup                 {   display:              none;}
+
+
+
+/* 
+ @@@@@@@@@@  @@@      @@@   @@@@@@@@@   @@@@@@@@@@@@@
+@@@@@@@@@@@  @@@      @@@  @@@@@@@@@@@  @@@@@@@@@@@@@
+@@@          @@@      @@@  @@@     @@@       @@@
+@@@          @@@      @@@  @@@     @@@       @@@
+@@@          @@@      @@@  @@@     @@@       @@@
+@@@          @@@@@@@@@@@@  @@@@@@@@@@@       @@@
+@@@          @@@@@@@@@@@@  @@@@@@@@@@@       @@@
+@@@          @@@      @@@  @@@     @@@       @@@
+@@@          @@@      @@@  @@@     @@@       @@@
+@@@          @@@      @@@  @@@     @@@       @@@
+@@@@@@@@@@@  @@@      @@@  @@@     @@@       @@@
+ @@@@@@@@@@  @@@      @@@  @@@     @@@       @@@
+*/
+
+
+#chat {position: absolute;
+	width: 100%;
+top:53px;
+z-index: -10;
+height: calc(100% - 53px);
+}
+
+#chField {	width: 80%;
+	        height: calc(100% - 75px);
+            z-index: -10;
+            overflow-y: scroll; display: inline-block;
+            }
+
+#onlinePeople {
+width: 20%;
+height: calc(100% - 75px);
+            z-index: -10;
+            overflow-y: scroll;
+            background-color: #EEEEEE;
+            float:right;
+            display: inline-block;
+}
+
+.chLine {margin-bottom: 10px;
+text-indent: -20px;
+margin-left: 25px;}
+
+#chCommand {width: 100%;
+height: 75px;
+background-color: #CCCCCC;
+position: absolute;
+bottom: 0px;
+}
+
+#SendOnEnter {font-size: 10px;
+position: absolute;
+right: 5px;}
+input[type="checkbox"] {
+	height: 10px;
+	width: 10px;
+}
+
+textarea[name="text_message"] {width: calc(100% - 60px);
+	height: 40px;
+	resize:none;
+	margin: 5px;
+	outline: none;
+        }
+input[name="sendMessage"] {
+height: 42px;
+width: 42px;
+font-weight: bold;
+position: absolute;
+top: 5px;
+right: 5px;
+color: #FFFFFF;
+background-color: #AAAAAA;
+}
+
+/*
+ @@@     @@@           @@@@@@@@    @@@       @@@   @@@@@@@@@   @@@          @@@
+ @@@     @@@         @@@@@@@@@@@@  @@@@     @@@@  @@@@@@@@@@@  @@@          @@@
+ @@@     @@@         @@@      @@@  @@@@@   @@@@@  @@@     @@@  @@@          @@@
+ @@@     @@@         @@@           @@@@@@ @@@@@@  @@@     @@@  @@@          @@@
+  @@@   @@@          @@@           @@@  @@@  @@@  @@@     @@@  @@@          @@@
+    @@@@@     @@@@@  @@@@@@@@@@    @@@   @   @@@  @@@@@@@@@@@  @@@          @@@
+  @@@   @@@   @@@@@    @@@@@@@@@@  @@@       @@@  @@@@@@@@@@@  @@@          @@@
+ @@@     @@@                  @@@  @@@       @@@  @@@     @@@  @@@          @@@
+ @@@     @@@                  @@@  @@@       @@@  @@@     @@@  @@@          @@@
+ @@@     @@@         @@@      @@@  @@@       @@@  @@@     @@@  @@@          @@@       
+ @@@     @@@         @@@@@@@@@@@@  @@@       @@@  @@@     @@@  @@@@@@@@@@@  @@@@@@@@@@@
+ @@@     @@@           @@@@@@@@    @@@       @@@  @@@     @@@  @@@@@@@@@@@  @@@@@@@@@@@
+*/
+
+/*
+   @@@@@@@@    @@@       @@@   @@@@@@@@@   @@@          @@@
+ @@@@@@@@@@@@  @@@@     @@@@  @@@@@@@@@@@  @@@          @@@
+ @@@      @@@  @@@@@   @@@@@  @@@     @@@  @@@          @@@
+ @@@           @@@@@@ @@@@@@  @@@     @@@  @@@          @@@
+ @@@           @@@  @@@  @@@  @@@     @@@  @@@          @@@
+ @@@@@@@@@@    @@@   @   @@@  @@@@@@@@@@@  @@@          @@@
+   @@@@@@@@@@  @@@       @@@  @@@@@@@@@@@  @@@          @@@
+          @@@  @@@       @@@  @@@     @@@  @@@          @@@
+          @@@  @@@       @@@  @@@     @@@  @@@          @@@       
+ @@@      @@@  @@@       @@@  @@@     @@@  @@@          @@@      
+ @@@@@@@@@@@@  @@@       @@@  @@@     @@@  @@@@@@@@@@@  @@@@@@@@@@@
+   @@@@@@@@@   @@@       @@@  @@@     @@@  @@@@@@@@@@@  @@@@@@@@@@@
+*/
+
+/*
+@@@       @@@  @@@@@@@@@@@  @@@@@@@       @@@  @@@     @@@  @@@       @@@
+@@@@     @@@@  @@@@@@@@@@@  @@@@@@@@@     @@@  @@@     @@@  @@@@     @@@@
+@@@@@   @@@@@  @@@          @@@    @@@@   @@@  @@@     @@@  @@@@@   @@@@@
+@@@@@@ @@@@@@  @@@          @@@     @@@@  @@@  @@@     @@@  @@@@@@ @@@@@@
+@@@  @@@  @@@  @@@          @@@      @@@  @@@  @@@     @@@  @@@  @@@  @@@
+@@@   @   @@@  @@@@@@@@@@@  @@@      @@@  @@@  @@@     @@@  @@@   @   @@@
+@@@       @@@  @@@@@@@@@@@  @@@      @@@  @@@  @@@     @@@  @@@       @@@
+@@@       @@@  @@@          @@@      @@@  @@@  @@@     @@@  @@@       @@@
+@@@       @@@  @@@          @@@     @@@@  @@@  @@@     @@@  @@@       @@@
+@@@       @@@  @@@          @@@    @@@@   @@@  @@@     @@@  @@@       @@@
+@@@       @@@  @@@@@@@@@@@  @@@@@@@@@     @@@  @@@@@@@@@@@  @@@       @@@
+@@@       @@@  @@@@@@@@@@@  @@@@@@@       @@@  @@@@@@@@@@@  @@@       @@@
+*/
+
+/*
+@@@           @@@@@@@@@   @@@@@@@@      @@@@@@@@@@   @@@@@@@@@@@
+@@@          @@@@@@@@@@@  @@@@@@@@@@   @@@@@@@@@@@@  @@@@@@@@@@@
+@@@          @@@     @@@  @@@     @@@  @@@       @@  @@@
+@@@          @@@     @@@  @@@     @@@  @@@           @@@
+@@@          @@@     @@@  @@@     @@@  @@@           @@@
+@@@          @@@@@@@@@@@  @@@@@@@@@@   @@@           @@@@@@@@@@@
+@@@          @@@@@@@@@@@  @@@@@@@      @@@   @@@@@   @@@@@@@@@@@
+@@@          @@@     @@@  @@@   @@@    @@@   @@@@@@  @@@ 
+@@@          @@@     @@@  @@@    @@@   @@@      @@@  @@@ 
+@@@          @@@     @@@  @@@     @@@  @@@      @@@  @@@ 
+@@@@@@@@@@@  @@@     @@@  @@@     @@@  @@@@@@@@@@@@  @@@@@@@@@@@
+@@@@@@@@@@@  @@@     @@@  @@@     @@@   @@@@@@@@@@   @@@@@@@@@@@  
+*/
+
+/*
+@@@     @@@         @@@           @@@@@@@@@   @@@@@@@@      @@@@@@@@@@   @@@@@@@@@@@
+@@@     @@@         @@@          @@@@@@@@@@@  @@@@@@@@@@   @@@@@@@@@@@@  @@@@@@@@@@@
+@@@     @@@         @@@          @@@     @@@  @@@     @@@  @@@           @@@
+@@@     @@@         @@@          @@@     @@@  @@@     @@@  @@@           @@@
+ @@@   @@@          @@@          @@@     @@@  @@@     @@@  @@@           @@@
+   @@@@@     @@@@@  @@@          @@@@@@@@@@@  @@@@@@@@@@   @@@           @@@@@@@@@@@
+ @@@   @@@   @@@@@  @@@          @@@@@@@@@@@  @@@@@@@      @@@   @@@@@   @@@@@@@@@@@
+@@@     @@@         @@@          @@@     @@@  @@@   @@@    @@@   @@@@@@  @@@ 
+@@@     @@@         @@@          @@@     @@@  @@@    @@@   @@@      @@@  @@@ 
+@@@     @@@         @@@          @@@     @@@  @@@     @@@  @@@      @@@  @@@ 
+@@@     @@@         @@@@@@@@@@@  @@@     @@@  @@@     @@@  @@@@@@@@@@@@  @@@@@@@@@@@
+@@@     @@@         @@@@@@@@@@@  @@@     @@@  @@@     @@@   @@@@@@@@@@   @@@@@@@@@@@  
+*/
+
+#test {
+position: fixed;
+bottom: 40px;
+background-color: #8E8E8E;
+z-index: 15;
+width: 150px;
+height: 20px;}
+
+#scrollPos {
+position: fixed;
+bottom: 20px;
+background-color: #727272;
+z-index: 15;
+width: 150px;
+height: 20px;}
+
+#windowSize {
+position: fixed;
+bottom: 0px;
+background-color: #5B5B5B;
+z-index: 15;
+width: 150px;
+height: 20px;}
+
+
+
